@@ -1,0 +1,24 @@
+.DS_STORE
+*.private.*
+*.log
+*.save
+*.sqlite*
+*.swp
+*.crt
+*.key
+tsconfig.tsbuildinfo
+
+# Output files
+/dist/
+
+# NPM
+/node_modules/
+.npmrc
+
+# IDE
+.vagrant
+.idea/
+.vscode/
+
+out.cypher
+config.json

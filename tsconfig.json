@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es7"],
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "inlineSourceMap": true,
+    "noImplicitReturns": true,
+    "incremental": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+  }
+}
